@@ -1,0 +1,76 @@
+/* ---------------- Header Top ---------------- */
+
+.header-top,
+.header-top-left,
+.header-top-right,
+.location-info,
+.working-hours,
+.email,
+.phone-number {
+    display: flex;
+}
+
+header {
+    height: 697px;
+    width: auto;
+    background-image: url(/images/header/hero\ shape.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.header-top {
+    height: 62px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    color: #355EFC;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.01);
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.11);
+}
+
+.location-info,
+.working-hours,
+.email,
+.phone-number {
+    gap: 10px;
+    align-items: center;
+}
+
+.header-top-left {
+    gap: 30px;
+    margin-left: 72px;
+}
+
+.header-top-right {
+    gap: 35.5px;
+    margin-right: 72px;
+}
+
+/* -------------------------------------------- */
+/* -------------- Navigation Bar -------------- */
+
+nav, .main-menu, .nav-menu, .socials {
+    display: flex;
+}
+
+nav {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-menu {
+    gap: 61px;
+    margin-right: 72px;
+}
+
+.logo {
+    margin-left: 50px;
+    width: 201px;
+    height: 58px;
+    background-image: url(/images/header/logo.png);
+}
+
+.nav-menu {
+    list-style: none;
+    gap: 15px;
+}
