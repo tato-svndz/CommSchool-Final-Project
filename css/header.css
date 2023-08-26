@@ -11,6 +11,7 @@
 }
 
 header {
+    position: relative;
     height: 697px;
     width: auto;
     background-image: url(/images/header/hero\ shape.png);
@@ -49,11 +50,13 @@ header {
 /* -------------------------------------------- */
 /* -------------- Navigation Bar -------------- */
 
-nav, .main-menu, .nav-menu, .socials {
+nav, .main-menu, .nav-menu, .socials, .social {
     display: flex;
 }
 
 nav {
+    color: #355EFC;
+    margin-top: 29px;
     justify-content: space-between;
     align-items: center;
 }
@@ -71,6 +74,92 @@ nav {
 }
 
 .nav-menu {
+    font-size: 16px;
     list-style: none;
     gap: 15px;
+    align-items: center;
+}
+
+.nav-menu > li {
+    width: 74px;
+}
+
+.socials {
+    gap: 10px;
+}
+
+.social {
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #E4E8FD;
+}
+/* -------------------------------------------- */
+/* ---------------- Hero-Header --------------- */
+
+.hero-header-left {
+    margin-left: 72px;
+    margin-top: 97px;
+}
+
+.welcome-button {
+    width: 182px;
+    height: 44px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    background: none;
+    color: #355EFC;
+    font-size: 16px;
+}
+
+.hero-header-left > h1 {
+    font-size: 80px;
+    width: 731px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.explore-more-button {
+    width: 157px;
+    height: 44px;
+    border-radius: 10px;
+    background-color: #355EFC;
+    border: none;
+    font-size: 16px;
+    color: #F5F5F5;
+}
+
+.slider-buttons {
+    position: absolute;
+    top: 55%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.slider-left-button {
+    display: flex;
+    width: 76px;
+    height: 62px;
+    padding: 15px 35px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 50px 50px 0px;
+    background-color: #CAD2FC;
+    border: none;
+}
+
+.slider-right-button {
+    display: flex;
+    width: 76px;
+    height: 62px;
+    padding: 15px 35px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px 0px 0px 50px;
+    background-color: #CAD2FC;
+    border: none;
 }
