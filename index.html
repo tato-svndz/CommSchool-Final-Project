@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/animations.css" />
     <title>Finanza</title>
   </head>
   <body>
@@ -83,26 +84,28 @@
         <div class="logo"></div>
         <div class="main-menu">
           <ul class="nav-menu">
-            <li>Home</li>
-            <li>About</li>
-            <li>Service</li>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Service</a></li>
             <li>
-              Pages
-              <svg
-                class="drop-down-icon"
-                xmlns="http://www.w3.org/2000/svg"
-                width="15"
-                height="8"
-                viewBox="0 0 15 8"
-                fill="none"
-              >
-                <path
-                  d="M7.13539 7.72701L1.18353 2.46079C0.772155 2.09681 0.772155 1.50823 1.18353 1.14811L2.17259 0.272991C2.58397 -0.0909971 3.24918 -0.0909971 3.65618 0.272991L7.875 4.00581L12.0938 0.272991C12.5052 -0.0909971 13.1704 -0.0909971 13.5774 0.272991L14.5665 1.14811C14.9778 1.5121 14.9778 2.10068 14.5665 2.46079L8.61461 7.72701C8.21198 8.091 7.54677 8.091 7.13539 7.72701Z"
-                  fill="#355EFC"
-                />
-              </svg>
+              <button onclick="dropDown()" class="drop-down">
+                Pages
+                <svg
+                  class="drop-down-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="15"
+                  height="8"
+                  viewBox="0 0 15 8"
+                  fill="none"
+                >
+                  <path
+                    d="M7.13539 7.72701L1.18353 2.46079C0.772155 2.09681 0.772155 1.50823 1.18353 1.14811L2.17259 0.272991C2.58397 -0.0909971 3.24918 -0.0909971 3.65618 0.272991L7.875 4.00581L12.0938 0.272991C12.5052 -0.0909971 13.1704 -0.0909971 13.5774 0.272991L14.5665 1.14811C14.9778 1.5121 14.9778 2.10068 14.5665 2.46079L8.61461 7.72701C8.21198 8.091 7.54677 8.091 7.13539 7.72701Z"
+                    fill="#355EFC"
+                  />
+                </svg>
+              </button>
             </li>
-            <li>Contact</li>
+            <li><a href="">Contact</a></li>
           </ul>
           <div class="socials">
             <div class="social">
@@ -153,14 +156,22 @@
           </div>
         </div>
       </nav>
-      <div class="hero-header-left">
-        <button class="welcome-button">Welcome to Finanza</button>
-        <h1>Your Financial Status Is Our Goal</h1>
-        <button class="explore-more-button">explore more</button>
+      <div class="hero-header">
+        <div class="hero-header-left">
+          <button class="welcome-button">Welcome to Finanza</button>
+          <h1>Your Financial Status Is Our Goal</h1>
+          <button class="explore-more-button">explore more</button>
+        </div>
+        <div class="hero-header-slider">
+          <div class="slide-one"></div>
+          <div class="slide-two"></div>
+          <div class="slide-three"></div>
+          <div class="slide-four"></div>
+        </div>
       </div>
       <div class="slider-buttons">
         <button onclick="prevSlide()" class="slider-left-button">
-          <div class="slider-left-icon">
+          <div class="slider-icon">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="28"
@@ -176,7 +187,7 @@
           </div>
         </button>
         <button onclick="nextSlide()" class="slider-right-button">
-          <div class="slider-right-icon">
+          <div class="slider-icon">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="28"

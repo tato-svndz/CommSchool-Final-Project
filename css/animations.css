@@ -1,0 +1,19 @@
+.slider-left-button:hover, .slider-right-button:hover {
+    width: 83px;
+}
+
+.welcome-button:hover {
+    color: #F5F5F5;
+    background: #355EFC;
+    cursor: pointer;
+}
+
+.explore-more-button:hover {
+    background-color: #2c46ac;
+    border: 1px solid #F5F5F5;
+    cursor: pointer;
+}
+
+.drop-down:hover{
+    cursor: pointer;
+}

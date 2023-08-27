@@ -66,6 +66,17 @@ nav {
     margin-right: 72px;
 }
 
+.main-menu a {
+    text-decoration: none;
+    color: #355EFC;
+}
+
+.drop-down {
+    border: none;
+    background: none;
+    color: #355EFC;
+}
+
 .logo {
     margin-left: 50px;
     width: 201px;
@@ -102,6 +113,8 @@ nav {
 .hero-header-left {
     margin-left: 72px;
     margin-top: 97px;
+    width: 20%;
+    z-index: 1;
 }
 
 .welcome-button {
@@ -113,6 +126,7 @@ nav {
     background: none;
     color: #355EFC;
     font-size: 16px;
+    transition: 0.3s;
 }
 
 .hero-header-left > h1 {
@@ -130,6 +144,7 @@ nav {
     border: none;
     font-size: 16px;
     color: #F5F5F5;
+    transition: 0.3s;
 }
 
 .slider-buttons {
@@ -150,6 +165,7 @@ nav {
     border-radius: 0px 50px 50px 0px;
     background-color: #CAD2FC;
     border: none;
+    transition: 0.3s;
 }
 
 .slider-right-button {
@@ -162,4 +178,31 @@ nav {
     border-radius: 50px 0px 0px 50px;
     background-color: #CAD2FC;
     border: none;
+    transition: 0.3s;
+}
+
+.slider-images {
+    width: 853px;
+    height: 623px;
+}
+
+.hero-header {
+    height: 78.5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.slide-one {
+    width: 853px;
+    height: 100%;
+    background-image: url(/images/header/slider-image-card.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.hero-header-slider {
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
 }
