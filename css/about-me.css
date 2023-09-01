@@ -16,3 +16,48 @@
     color: #355EFC;
     padding: 10px 15px;
 }
+
+.about-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-us-right {
+    width: 550px;
+}
+
+.about-us-right > h1 {
+    font-size: 48px;
+    color: #011A41;
+}
+
+.about-us-right p {
+    font-size: 16px;
+    color: #555;
+}
+
+.tab-btn {
+    padding: 5px;
+    width: 130px;
+    border: none;
+    color: #555;
+    background: none;
+}
+
+.active {
+    border: 1px solid #DEE2E6;
+    border-bottom: none;
+    border-radius: 5px 5px 0px 0px;
+    position: relative;
+}
+
+.active::after {
+    content: "";
+    width: 380px;
+    height: 200px;
+    border-bottom: 1px solid #DEE2E6;
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+}
