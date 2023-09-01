@@ -1,0 +1,18 @@
+.about-me {
+    height: 900px;
+}
+
+.about-me-picture {
+    width: 560px;
+    height: 600px;
+    object-fit: cover;
+}
+
+.about-button {
+    background: none;
+    border: 1px solid #CAD2FC;
+    border-radius: 11px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.36);
+    color: #355EFC;
+    padding: 10px 15px;
+}

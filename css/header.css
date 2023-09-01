@@ -13,7 +13,6 @@
 header {
     position: relative;
     height: 697px;
-    width: auto;
     background-image: url(/images/header/hero\ shape.png);
     background-repeat: no-repeat;
     background-position: left;
@@ -75,6 +74,7 @@ nav {
     border: none;
     background: none;
     color: #355EFC;
+    font-size: 20px;
 }
 
 .logo {
@@ -85,7 +85,8 @@ nav {
 }
 
 .nav-menu {
-    font-size: 16px;
+    font-size: 20px;
+    font-weight: 700;
     list-style: none;
     gap: 15px;
     align-items: center;
@@ -130,8 +131,8 @@ nav {
 }
 
 .hero-header-left > h1 {
-    font-size: 80px;
-    width: 731px;
+    font-size: 100px;
+    width: 820px;
     margin-top: 25px;
     margin-bottom: 25px;
 }
@@ -165,7 +166,7 @@ nav {
     border-radius: 0px 50px 50px 0px;
     background-color: #CAD2FC;
     border: none;
-    transition: 0.3s;
+    transition: 0.3s ease;
 }
 
 .slider-right-button {
@@ -178,7 +179,7 @@ nav {
     border-radius: 50px 0px 0px 50px;
     background-color: #CAD2FC;
     border: none;
-    transition: 0.3s;
+    transition: 0.3s ease;
 }
 
 .slider-images {
@@ -192,16 +193,34 @@ nav {
     justify-content: space-between;
 }
 
-.slide-one {
+.slide {
+    position: absolute;
     width: 853px;
     height: 100%;
-    background-image: url(/images/header/slider-image-card.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
+    display: none;
+}
+
+.one {
+    background-image: url(/images/header/slider-image-card.png);
+}
+
+.two {
+    background-image: url(/images/header/slider-image-card-2.png);
+}
+
+.three {
+    background-image: url(/images/header/slider-image-card-3.png);
+}
+
+.four {
+    background-image: url(/images/header/slider-image-card-4.png);
 }
 
 .hero-header-slider {
+    position: relative;
     width: 80%;
     display: flex;
     justify-content: flex-end;

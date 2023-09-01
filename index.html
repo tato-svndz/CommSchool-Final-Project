@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/header.css" />
     <link rel="stylesheet" href="css/animations.css" />
+    <link rel="stylesheet" href="css/about-me.css" />
     <title>Finanza</title>
   </head>
   <body>
@@ -88,7 +89,7 @@
             <li><a href="">About</a></li>
             <li><a href="">Service</a></li>
             <li>
-              <button onclick="dropDown()" class="drop-down">
+              <a onclick="dropDown()" class="drop-down">
                 Pages
                 <svg
                   class="drop-down-icon"
@@ -103,7 +104,7 @@
                     fill="#355EFC"
                   />
                 </svg>
-              </button>
+              </a>
             </li>
             <li><a href="">Contact</a></li>
           </ul>
@@ -163,14 +164,14 @@
           <button class="explore-more-button">explore more</button>
         </div>
         <div class="hero-header-slider">
-          <div class="slide-one"></div>
-          <div class="slide-two"></div>
-          <div class="slide-three"></div>
-          <div class="slide-four"></div>
+          <div class="slide one fade"></div>
+          <div class="slide two fade"></div>
+          <div class="slide three fade"></div>
+          <div class="slide four fade"></div>
         </div>
       </div>
       <div class="slider-buttons">
-        <button onclick="prevSlide()" class="slider-left-button">
+        <button onclick="slideButton(-1)" class="slider-left-button">
           <div class="slider-icon">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -186,7 +187,7 @@
             </svg>
           </div>
         </button>
-        <button onclick="nextSlide()" class="slider-right-button">
+        <button onclick="slideButton(1)" class="slider-right-button">
           <div class="slider-icon">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -204,5 +205,41 @@
         </button>
       </div>
     </header>
+    <section class="about-us">
+      <img
+        class="about-me-picture"
+        src="images/about-us/image-card.png"
+        alt=""
+      />
+      <div class="about-us-right">
+        <button class="about-button">About Us</button>
+        <h1>We Help Our Clients To Grow Their Business</h1>
+        <p>
+          Temporar erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
+          diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet
+          lorem sit clita duo justo magna dolore erat amet
+        </p>
+        <div class="tabs">
+          <div class="tab-buttons">
+            <button>Story</button>
+            <button>Mission</button>
+            <button>Vision</button>
+          </div>
+          <div class="tab-content">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis labore quo a nostrum commodi aperiam eaque modi
+              explicabo asperiores possimus.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic modi
+              nam doloribus itaque laborum provident voluptatibus quia
+              consequuntur eaque quisquam.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
   </body>
 </html>
