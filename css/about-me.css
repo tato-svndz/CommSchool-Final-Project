@@ -1,5 +1,5 @@
-.about-me {
-    height: 900px;
+.about-us {
+    margin-top: 77px;
 }
 
 .about-me-picture {
@@ -15,11 +15,14 @@
     box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.36);
     color: #355EFC;
     padding: 10px 15px;
+    transition: 0.3s ease;
 }
 
 .about-us {
+    gap: 24px;
+    margin-left: 72px;
     display: flex;
-    justify-content: center;
+    margin-right: 36px;
     align-items: center;
 }
 
@@ -28,6 +31,8 @@
 }
 
 .about-us-right > h1 {
+    margin-top: 19px;
+    margin-bottom: 19px;
     font-size: 48px;
     color: #011A41;
 }
@@ -37,27 +42,35 @@
     color: #555;
 }
 
+.tabs {
+    margin-top: 80px;
+}
+
+.tab-buttons {
+    display: flex;
+    gap: 0;
+    margin-bottom: 15px;
+}
+
+.tab-content {
+    display: none;
+    flex-direction: column;
+    gap: 25px;
+}
+
 .tab-btn {
     padding: 5px;
     width: 130px;
     border: none;
-    color: #555;
+    color: #555555;
     background: none;
+    transition: all 0.3s ease
 }
 
-.active {
+.tab-btn.active {
     border: 1px solid #DEE2E6;
-    border-bottom: none;
     border-radius: 5px 5px 0px 0px;
     position: relative;
-}
-
-.active::after {
-    content: "";
-    width: 380px;
-    height: 200px;
-    border-bottom: 1px solid #DEE2E6;
-    position: absolute;
-    bottom: 0;
-    left: 100%;
+    transition: 0.3s;
+    border-bottom: none;
 }

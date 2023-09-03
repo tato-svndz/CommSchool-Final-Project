@@ -74,7 +74,7 @@ nav {
     border: none;
     background: none;
     color: #355EFC;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .logo {
@@ -85,7 +85,7 @@ nav {
 }
 
 .nav-menu {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 700;
     list-style: none;
     gap: 15px;
@@ -93,7 +93,16 @@ nav {
 }
 
 .nav-menu > li {
+    text-align: center;
     width: 74px;
+}
+
+.nav-menu li a {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: 0.3s ease;
 }
 
 .socials {
@@ -131,8 +140,8 @@ nav {
 }
 
 .hero-header-left > h1 {
-    font-size: 100px;
-    width: 820px;
+    font-size: 80px;
+    width: 730px;
     margin-top: 25px;
     margin-bottom: 25px;
 }
@@ -195,7 +204,7 @@ nav {
 
 .slide {
     position: absolute;
-    width: 1000px;
+    width: 853px;
     height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
