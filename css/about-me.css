@@ -1,7 +1,18 @@
 .about-us {
+    display: flex;
+    flex-direction: column;
     margin-top: 77px;
+    margin-left: 72px;
+    margin-right: 36px;
+    display: flex;
+    align-items: center;
 }
-
+.about-us-top {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    width: 100%;
+}
 .about-me-picture {
     width: 560px;
     height: 600px;
@@ -16,14 +27,6 @@
     color: #355EFC;
     padding: 10px 15px;
     transition: 0.3s ease;
-}
-
-.about-us {
-    gap: 24px;
-    margin-left: 72px;
-    display: flex;
-    margin-right: 36px;
-    align-items: center;
 }
 
 .about-us-right {
@@ -73,4 +76,41 @@
     position: relative;
     transition: 0.3s;
     border-bottom: none;
+}
+
+.services-container {
+    margin-top: 45px;
+    margin-bottom: 45px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 25px;
+    border: 1px solid #909DE2;
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.14);
+}
+
+.service {
+    position: relative;
+    display: flex;
+    gap: 13px;
+
+}
+
+.service-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.service-text {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    width: 210px;
+}
+
+.line {
+    height: 100px;
+    border-left: 1px solid #909DE2;
 }

@@ -18,6 +18,7 @@ function slideButton(n) {
 }
 showSlides(slideIndex);
 
+
 // Tabs
 let tabButtons = document.querySelectorAll('.tab-btn');
 let tabContent = document.querySelectorAll('.tab-content');
