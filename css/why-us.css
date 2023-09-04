@@ -1,0 +1,101 @@
+.why-us {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 70px;
+    margin-right: 80px;
+    margin-top: 45px;
+    gap: 21px;
+}
+.why-button {
+    color: #355EFC;
+    width: 164px;
+    height: 42px;
+    padding: 10px 15px;
+    text-align: center;
+    background: none;
+    border-radius: 11px;
+    border: 1px solid #CAD2FC;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.36);
+}
+
+.why-left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.why-left h1 {
+    max-width: 520px;
+    font-size: 48px;
+    color: #011A41;
+    font-weight: 700;
+}
+
+.why-left p {
+    color: #555555;
+    max-width: 540px;
+    line-height: 24px;
+}
+
+.why-explore-btn {
+    padding: 10px 25px;
+    border-radius: 10px;
+    background-color: #355EFC;
+    color: #F5F5F5;
+    width: 157px;
+    border: none;
+}
+
+.why-card {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 18px;
+    justify-content: center;
+    align-items: flex-start;
+    width: 258px;
+    height: 265px;
+    border-radius: 15px;
+    border-radius: 15px;
+    border: 1px solid #909DE2;
+    transition: 0.5s ease;
+}
+
+.why-card h2 {
+    font-size: 24px;
+    font-weight: 700;  
+    color: #011A41; 
+}
+
+.why-car p {
+    color: #555555;
+}
+
+.why-card-container {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.why-card-left {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.card-read-btn {
+    display: flex;
+    gap: 10px;
+    background: none;
+    color: #355EFC;
+    width: auto;
+    align-items: center;
+    border: none;
+}
+
+.hovered {
+    background-color: #355EFC;
+    color: #F5F5F5;
+    fill: #F5F5F5;
+}
