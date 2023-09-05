@@ -50,3 +50,32 @@
 }
 
 /* why us */
+
+.why-explore-btn:hover {
+    background-color: #2c46ac;
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: 0px 3px 3px 0px rgba(39, 39, 39, 0.164);
+}
+
+.why-button:hover {
+    background-color: #355EFC;
+    color: #F5F5F5;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.why-card:hover, .why-card:hover .card-icon {
+    color: #F5F5F5;
+    background-color: #355EFC;
+    fill: #F5F5F5;
+}
+
+.why-card:hover h2, .why-card:hover .card-read-btn, .why-card:hover .arrow-icon {
+    color: #F5F5F5;
+    fill: #F5F5F5;
+}
+
+.card-read-btn, .arrow-icon, .card-icon {
+    transition: 0.3s ease;
+}
