@@ -43,4 +43,3 @@ function tabBtn(index) {
 }
 tabBtn(0); //default
 
-// card hover

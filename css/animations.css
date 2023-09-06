@@ -79,3 +79,31 @@
 .card-read-btn, .arrow-icon, .card-icon {
     transition: 0.3s ease;
 }
+
+/* services */
+
+.accordion-icon {
+    transition: 0.1s ease;
+}
+
+.planning-button:hover, .planning-button:hover .accordion-icon {
+    color: #FFF;
+    fill: #FFF;
+    background-color: #355EFC;
+    cursor: pointer;
+}
+
+
+.our-button:hover {
+    background-color: #355EFC;
+    color: #F5F5F5;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.our-read-more-btn:hover {
+    background-color: #2c46ac;
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: 0px 3px 3px 0px rgba(39, 39, 39, 0.164);
+}
