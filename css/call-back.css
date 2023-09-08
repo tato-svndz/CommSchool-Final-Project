@@ -1,0 +1,83 @@
+.call-back {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 85px;
+    background: linear-gradient(to bottom, #355EFC 50%, transparent 50%);
+}
+
+form {
+    display: flex;
+    width: 719px;
+    padding: 50px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+    border: 1px solid #909DE2;
+    background: #FFF;
+    margin-top: 117px;
+}
+
+.get-in-touch {
+    width: 125px;
+    padding: 10px 15px;
+    color: #355EFC;
+    border-radius: 11px;
+    border: 1px solid #CAD2FC;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.36);
+    background: none;
+}
+
+.inputs {
+    display: flex;
+    gap: 23px;
+}
+
+form h1 {
+    color: #011A41;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.inputs-left, .inputs-right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+form input {
+    display: flex;
+    width: 298px;
+    height: 52px;
+    padding: 15px 1px 15px 10px;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid #909DE2;
+}
+
+form textarea {
+    display: flex;
+    height: 133px;
+    padding: 15px 1px 15px 10px;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 5px;
+    border: 1px solid #909DE2;
+}
+
+.submit-now {
+    display: flex;
+    height: 49px;
+    padding: 10px 25px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 5px;
+    background-color: #355EFC;
+    color: #F5F5F5;
+    border: none;
+}

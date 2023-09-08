@@ -76,6 +76,10 @@
     fill: #F5F5F5;
 }
 
+.card-read-btn:hover {
+    cursor: pointer;
+}
+
 .card-read-btn, .arrow-icon, .card-icon {
     transition: 0.3s ease;
 }
