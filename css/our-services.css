@@ -62,7 +62,7 @@
 }
 
 .our-picture {
-    background-image: url(/images/our-services/tab-image.png);
+    background-image: url(../images/our-services/tab-image.png);
     width: 347px;
     height: 100%;
     border-radius: 5px;
