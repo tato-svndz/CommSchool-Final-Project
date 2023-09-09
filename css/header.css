@@ -17,7 +17,7 @@
 header {
     position: relative;
     height: 697px;
-    background-image: url(/images/header/hero\ shape.png);
+    background-image: url(../images/header/hero\ shape.png);
     background-repeat: no-repeat;
     background-position: left;
 }
@@ -89,7 +89,7 @@ nav {
     margin-left: 50px;
     width: 201px;
     height: 58px;
-    background-image: url(/images/header/logo.png);
+    background-image: url(../images/header/logo.png);
 }
 
 .nav-menu {
@@ -357,19 +357,19 @@ nav {
 }
 
 .one {
-    background-image: url(/images/header/slider-image-card.png);
+    background-image: url(../images/header/slider-image-card.png);
 }
 
 .two {
-    background-image: url(/images/header/slider-image-card-2.png);
+    background-image: url(../images/header/slider-image-card-2.png);
 }
 
 .three {
-    background-image: url(/images/header/slider-image-card-3.png);
+    background-image: url(../images/header/slider-image-card-3.png);
 }
 
 .four {
-    background-image: url(/images/header/slider-image-card-4.png);
+    background-image: url(../images/header/slider-image-card-4.png);
 }
 
 .hero-header-slider {
