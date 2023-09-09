@@ -72,8 +72,7 @@
     }
   
     .slider-buttons {
-      top: 50%;
-      bottom: 10px;
+      display: none;
     }
 
     .users-container {
