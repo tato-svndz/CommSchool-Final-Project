@@ -10,12 +10,20 @@
     display: flex;
 }
 
+.mobile-menu {
+    display: none;
+}
+
 header {
     position: relative;
     height: 697px;
     background-image: url(/images/header/hero\ shape.png);
     background-repeat: no-repeat;
     background-position: left;
+}
+
+header h1 {
+    color: #011A41;
 }
 
 .header-top {
@@ -117,6 +125,137 @@ nav {
     border-radius: 50%;
     background-color: #E4E8FD;
 }
+
+.social a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.users {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.3);
+    pointer-events: none;
+    opacity: 0;
+}
+
+.users.show {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.users-container {
+    position: relative;
+    padding: 20px;
+    border-radius: 10px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #F5F5F5;
+    height: 90vh;
+    width: 60vw;
+    box-shadow: -13px 10px 5px 0px rgba(0,0,0,0.35);
+}
+
+.user {
+    border-radius: 8px;
+    padding: 15px;
+    gap: 5px;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #355EFC;
+    transition: 0.3s ease;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.13);
+}
+
+.user h2 {
+    color: #011A41;
+    transition: 0.3s;
+}
+
+.users h1 {
+    color: #0a2136;
+}
+
+.close-button {
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #355EFC;
+    background: none;
+}
+
+.x-icon {
+    fill: #355EFC;
+}
+
+.user p {
+    color: #555;
+    transition: 0.3s;
+}
+
+.table-modal-container{
+    opacity: 0;
+    pointer-events: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.open {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.table-modal {
+    box-shadow: -13px 10px 5px 0px rgba(0,0,0,0.35);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    height: 70vh;
+    background-color: #FFF;
+    border-radius: 10px;
+}
+
+.table-modal table, td {
+    text-align: center;
+    padding: 20px;
+    border-collapse: collapse;
+    border: 1px solid #355EFC;
+}
+
+
 /* -------------------------------------------- */
 /* ---------------- Hero-Header --------------- */
 
@@ -125,6 +264,11 @@ nav {
     margin-top: 97px;
     width: 20%;
     z-index: 1;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
 }
 
 .welcome-button {

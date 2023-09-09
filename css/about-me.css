@@ -90,6 +90,14 @@
     box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.14);
 }
 
+.service h2 {
+    color: #011A41;
+}
+
+.service p {
+    color:#555;
+}
+
 .service {
     position: relative;
     display: flex;

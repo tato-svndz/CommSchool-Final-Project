@@ -27,6 +27,7 @@ form {
     border: 1px solid #CAD2FC;
     box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.36);
     background: none;
+    transition: 0.3s;
 }
 
 .inputs {
@@ -48,6 +49,7 @@ form h1 {
 }
 
 form input {
+    position: relative;
     display: flex;
     width: 298px;
     height: 52px;
@@ -55,6 +57,7 @@ form input {
     align-items: center;
     border-radius: 5px;
     border: 1px solid #909DE2;
+    outline: none;
 }
 
 form textarea {
@@ -66,6 +69,7 @@ form textarea {
     align-self: stretch;
     border-radius: 5px;
     border: 1px solid #909DE2;
+    outline: none;
 }
 
 .submit-now {
@@ -80,4 +84,5 @@ form textarea {
     background-color: #355EFC;
     color: #F5F5F5;
     border: none;
+    transition: 0.3s;
 }

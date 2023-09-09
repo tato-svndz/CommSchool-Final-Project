@@ -106,6 +106,7 @@
 }
 
 .ticks {
+    color: #555;
     display: flex;
     width: 183px;
     flex-direction: column;
